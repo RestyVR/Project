@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Email_Body_Content</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Body Content</shortDescription>
+        <value>Please fill out our survey:</value>
+    </labels>
+    <labels>
+        <fullName>Email_Body_URL</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Body URL</shortDescription>
+        <value>​http://n26.com/survey/</value>
+    </labels>
+    <labels>
+        <fullName>Email_body_Salutation</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email body Salutation</shortDescription>
+        <value>Hey</value>
+    </labels>
+    <labels>
+        <fullName>Email_message_Subject</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email message Subject</shortDescription>
+        <value>N26 | Please fill Survey</value>
+    </labels>
+    <labels>
+        <fullName>Error_Account_Selection</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error on Account selection</shortDescription>
+        <value>In Select Account Section : Select at least one account in-order to create opportunity</value>
+    </labels>
+    <labels>
+        <fullName>Error_Contact_System_admin</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error contact system admin</shortDescription>
+        <value>Please contact System Admin.</value>
+    </labels>
+    <labels>
+        <fullName>Error_CreateOpty_AccountNotInSF</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>account not exists in SF</shortDescription>
+        <value>Accounts doesnot exists in organization</value>
+    </labels>
+    <labels>
+        <fullName>Error_OPTY_Required_fields</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error on required field</shortDescription>
+        <value>In Create Opportunity section: Enter all required fields</value>
+    </labels>
+    <labels>
+        <fullName>Success_Opportunity_creation</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Success on opportunity creation</shortDescription>
+        <value>Opportunities created successfully.</value>
+    </labels>
+    <labels>
+        <fullName>Survey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Survey</shortDescription>
+        <value>Survey</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Batch_SendSurveyToCustomer</members>
+        <members>Batch_SendSurveyToCustomerTestClass</members>
+        <members>CustomerProductDetails</members>
+        <members>CustomerSurveyScheduler</members>
+        <members>TestDataFactory</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTestSuite</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>CustomerProductInfo</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Survey_Template_DE_EN</members>
+        <members>Survey_Template_DE_EN/Survey_Email_Template</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>customer_service_Agent_UtilityBar</members>
+        <members>Service_Agent</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
+        <members>Contact-Contact %28Marketing%29 Layout</members>
+        <members>Contact-Contact %28Sales%29 Layout</members>
+        <members>Contact-Contact %28Support%29 Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>Pricebook2-Price Book Layout</members>
+        <members>PricebookEntry-Price Book Entry Layout</members>
+        <members>Product2-Product Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>SystemLog__c</members>
+        <members>Case</members>
+        <members>Contact</members>
+        <members>Account</members>
+        <members>Pricebook2</members>
+        <members>PricebookEntry</members>
+        <members>Product2</members>
+        <members>SOQL_Queries__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>SOQL_Queries__mdt-en_US</members>
+        <members>SystemLog__c-en_US</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Translations</name>
+    </types>
+    <types>
+        <members>Contact</members>
+        <name>Workflow</name>
+    </types>
+    <version>38.0</version>
+</Package>

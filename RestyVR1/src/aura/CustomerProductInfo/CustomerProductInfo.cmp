@@ -1,0 +1,79 @@
+<!--
+          ** Component Details***
+         Name: Customer ProductInfo
+         Type: Lightning Component 
+         Purpose:component will display customer product information to service agent.
+-->
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" 
+                access="global" 
+                controller="CustomerProductDetails">
+	 <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+     <aura:attribute name="errors" type="String" default="Select contact on case" description='user doesnt select contact on case'/>
+     <aura:attribute name="productSummary" type="list" description="Maintain product details"/> 
+     <aura:attribute name="isError" type="boolean" default="false" description="Error page will get display"/>
+     <aura:attribute name="ProductName" type="string" default=""/>
+     <aura:attribute name="Country" type="string" default=""/>
+     
+     
+     <div class="slds-text-heading_large slds_bold_large  slds-m-bottom_small slds-m-left_x-small">Customer Product information </div>
+    <div class="slds_bold_large  slds-m-bottom_small slds-m-left_x-small">Customer selected product : <b> {!v.ProductName} </b> </div>
+    <div class="slds_bold_large  slds-m-bottom_small slds-m-left_x-small">Customer selected home country :<b>  {!v.Country} </b>  </div>
+    <!--on case Contact and product is not selected -->
+    <aura:if isTrue="{!v.isError}">
+    <div class="slds-box slds-theme–alert-texture slds-theme–error">
+    	<lightning:icon iconName="utility:error" 
+                        size="medium"
+                        alternativeText="error"
+                        Class="iconContainer"/>
+        <span class="slds-text-body–regular">
+           <div class="slds-text-heading_small slds-text-color_error ">{!v.errors}</div>
+        </span>    
+    </div>  
+   </aura:if>  
+ 
+    <div class="slds-grid slds-gutters slds-m-bottom_small slds-m-left_x-small slds-show" aura:id="pricetable" >
+    	<div class="slds-col slds-large-size--2-of-5">
+            <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+                <thead>
+                    <tr class="slds-text-title_caps">
+						<th scope="col">
+                            <div class="slds-truncate" title="Name">Product Name</div>
+                        </th>
+                        <th scope="col">
+                            <div class="slds-truncate" title="Phone">Type of Product</div>
+                        </th>
+                        <th scope="col">
+                            <div class="slds-truncate" title="Phone">Cost</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <aura:iteration items="{!v.productSummary}" var="obj"> <!--Product details will maintain -->
+                        <tr>
+                            <th scope="row" class="slds-truncate slds-text-align_left" style="width:3.25rem;">
+                                <div class="slds-truncate" title="{!obj.productName}">
+								{!obj.productName}
+                                </div>
+                            </th>
+                            <th scope="row">
+                                <div class="slds-truncate" title="{!obj.TypeOfProduct}">
+                                    {!obj.TypeOfProduct}
+                                </div>
+                            </th> 
+                            <th scope="row">
+                                <div class="slds-truncate" title="{!obj.Cost}">
+                                    {!obj.Cost}
+                                </div>
+                            </th> 
+                            
+                        </tr>
+                    </aura:iteration>
+                </tbody>
+			</table>
+        </div>
+        <div class="slds-col slds-large-size--2-of-5">
+        </div>    
+ </div>
+    
+    
+</aura:component>

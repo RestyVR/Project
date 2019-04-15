@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Custom meta data type will organization SOQL queries</description>
+    <fields>
+        <fullName>SOQL_Query__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>SOQL Query</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <label>SOQL Queries</label>
+    <pluralLabel>SOQL Queries</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

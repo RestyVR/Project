@@ -1,0 +1,20 @@
+<messaging:emailTemplate recipientType="Contact"
+    relatedToType="Contact"
+    subject="{!$Label.Email_message_Subject}"
+    language="{!relatedTo.language__c}"
+    replyTo="support@N26.com">
+
+    <messaging:htmlEmailBody >
+        <html>
+            <body>
+
+            <p>{!$Label.Email_body_Salutation} {!relatedTo.Firstname},</p>
+            
+            <p>{!$Label.Email_Body_Content} <a href = 
+                        "http://n26.com/survey/{!relatedTo.ID}" target="_blank">http://n26.com/survey/{!relatedTo.ID}
+                    </a></p>
+            
+            </body>
+        </html>
+    </messaging:htmlEmailBody>
+</messaging:emailTemplate>

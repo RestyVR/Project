@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- customer service Agent --></label>
+        <name>customer_service_Agent</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- Email Body Content --></label>
+        <name>Email_Body_Content</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Body URL --></label>
+        <name>Email_Body_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email body Salutation --></label>
+        <name>Email_body_Salutation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email message Subject --></label>
+        <name>Email_message_Subject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error on Account selection --></label>
+        <name>Error_Account_Selection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error contact system admin --></label>
+        <name>Error_Contact_System_admin</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- account not exists in SF --></label>
+        <name>Error_CreateOpty_AccountNotInSF</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error on required field --></label>
+        <name>Error_OPTY_Required_fields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Success on opportunity creation --></label>
+        <name>Success_Opportunity_creation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Survey --></label>
+        <name>Survey</name>
+    </customLabels>
+</Translations>
